@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "Username": "john_doe",
+    "Firstname": "John",
+    "Lastname": "Doe",
+    "Birthdate": "1990-01-15T00:00:00",
+    "Birthplace": "Chicago",
+    "Residence": "New York",
+    "Password": "newpw"
+  },
+  {
+    "Id": 2,
+    "Username": "jane_smith",
+    "Firstname": "Jane",
+    "Lastname": "Smith",
+    "Birthdate": "1985-05-20T00:00:00",
+    "Birthplace": "San Francisco",
+    "Residence": "Los Angeles",
+    "Password": "securepass"
+  },
+  {
+    "Id": 3,
+    "Username": "alex_walker",
+    "Firstname": "Alex",
+    "Lastname": "Walker",
+    "Birthdate": "1998-09-10T00:00:00",
+    "Birthplace": "Boston",
+    "Residence": "Chicago",
+    "Password": "mysecretpwd"
+  },
+  {
+    "Id": 4,
+    "Username": "emily_jones",
+    "Firstname": "Emily",
+    "Lastname": "Jones",
+    "Birthdate": "1992-03-28T00:00:00",
+    "Birthplace": "Los Angeles",
+    "Residence": "San Francisco",
+    "Password": "emilyspassword"
+  },
+  {
+    "Id": 5,
+    "Username": "michael_smith",
+    "Firstname": "Michael",
+    "Lastname": "Smith",
+    "Birthdate": "1982-11-12T00:00:00",
+    "Birthplace": "Chicago",
+    "Residence": "New York",
+    "Password": "smithpass"
+  },
+  {
+    "Id": 6,
+    "Username": "susan_wilson",
+    "Firstname": "Susan",
+    "Lastname": "Wilson",
+    "Birthdate": "1994-07-03T00:00:00",
+    "Birthplace": "San Diego",
+    "Residence": "Los Angeles",
+    "Password": "wilsonpass"
+  },
+  {
+    "Id": 7,
+    "Username": "david_miller",
+    "Firstname": "David",
+    "Lastname": "Miller",
+    "Birthdate": "1989-12-08T00:00:00",
+    "Birthplace": "Miami",
+    "Residence": "Chicago",
+    "Password": "david123"
+  },
+  {
+    "Id": 8,
+    "Username": "olivia_walker",
+    "Firstname": "Olivia",
+    "Lastname": "Walker",
+    "Birthdate": "1995-04-17T00:00:00",
+    "Birthplace": "Los Angeles",
+    "Residence": "San Francisco",
+    "Password": "walkerpass"
+  },
+  {
+    "Id": 9,
+    "Username": "matthew_johnson",
+    "Firstname": "Matthew",
+    "Lastname": "Johnson",
+    "Birthdate": "1993-08-25T00:00:00",
+    "Birthplace": "Chicago",
+    "Residence": "New York",
+    "Password": "matthewpwd"
+  },
+  {
+    "Id": 10,
+    "Username": "emma_williams",
+    "Firstname": "Emma",
+    "Lastname": "Williams",
+    "Birthdate": "1987-06-02T00:00:00",
+    "Birthplace": "San Francisco",
+    "Residence": "Los Angeles",
+    "Password": "emmapass"
+  },
+  {
+    "Id": 11,
+    "Username": "jacob_smith",
+    "Firstname": "Jacob",
+    "Lastname": "Smith",
+    "Birthdate": "1997-10-18T00:00:00",
+    "Birthplace": "New York",
+    "Residence": "Chicago",
+    "Password": "jacobpwd"
+  },
+  {
+    "Id": 12,
+    "Username": "ava_jones",
+    "Firstname": "Ava",
+    "Lastname": "Jones",
+    "Birthdate": "1991-02-05T00:00:00",
+    "Birthplace": "Los Angeles",
+    "Residence": "San Francisco",
+    "Password": "avapass"
+  },
+  {
+    "Id": 13,
+    "Username": "william_wilson",
+    "Firstname": "William",
+    "Lastname": "Wilson",
+    "Birthdate": "1984-09-22T00:00:00",
+    "Birthplace": "Chicago",
+    "Residence": "New York",
+    "Password": "williampass"
+  },
+  {
+    "Id": 14,
+    "Username": "sophia_miller",
+    "Firstname": "Sophia",
+    "Lastname": "Miller",
+    "Birthdate": "1986-12-11T00:00:00",
+    "Birthplace": "San Francisco",
+    "Residence": "Los Angeles",
+    "Password": "sophiapwd"
+  }
+]

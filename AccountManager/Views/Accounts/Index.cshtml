@@ -1,0 +1,49 @@
+﻿@model List<AccountManager.Models.Account>
+
+@{
+    
+    ViewData["Title"] = "Accounts";
+}
+
+<h1>Accounts</h1>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+    </div>
+    <div class="col-md-6 d-flex justify-content-end align-items-center">
+        <button class="btn btn-success" id="export-button">XML Export</button>
+    </div>
+</div>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Birthdate</th>
+            <th>Residence</th>
+            <th>Birthplace</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr class="account-row" data-account-data="@($"{account.Id},{account.Username},{account.Firstname},{account.Lastname},{account.Birthdate.ToShortDateString()},{account.Residence},{account.Birthplace}")">
+                <td>@account.Id</td>
+                <td>@account.Username</td>
+                <td>@account.Firstname</td>
+                <td>@account.Lastname</td>
+                <td>@account.Birthdate.ToShortDateString()</td>
+                <td>@account.Residence</td>
+                <td>@account.Birthplace</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@account.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

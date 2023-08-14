@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Logout";
+}
+
+<h1>Log Out</h1>
+
+@if (User.Identity != null && User.Identity.IsAuthenticated)
+{
+    <p>Are you sure you want to log out?</p>
+
+    <form method="post" asp-action="Logout" asp-controller="Login">
+        <button type="submit" class="btn btn-danger">Logout</button>
+    </form>
+}
+else
+{
+    <p>You are not logged in.</p>
+}
